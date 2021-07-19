@@ -7,146 +7,140 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		764B2B2D269752770083C271 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 764B2B2C269752770083C271 /* AppDelegate.m */; };
-		764B2B30269752770083C271 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 764B2B2F269752770083C271 /* SceneDelegate.m */; };
-		764B2B33269752770083C271 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 764B2B32269752770083C271 /* ViewController.m */; };
-		764B2B36269752770083C271 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 764B2B34269752770083C271 /* Main.storyboard */; };
-		764B2B38269752790083C271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 764B2B37269752790083C271 /* Assets.xcassets */; };
-		764B2B3B269752790083C271 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 764B2B39269752790083C271 /* LaunchScreen.storyboard */; };
-		764B2B3E269752790083C271 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 764B2B3D269752790083C271 /* main.m */; };
-		764B2B48269752790083C271 /* PhotoMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 764B2B47269752790083C271 /* PhotoMapTests.m */; };
-		764B2B53269752790083C271 /* PhotoMapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 764B2B52269752790083C271 /* PhotoMapUITests.m */; };
+		6A22E5DD20F2A3D90052F3C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A22E5DC20F2A3D90052F3C6 /* AppDelegate.m */; };
+		6A22E5E320F2A3D90052F3C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A22E5E120F2A3D90052F3C6 /* Main.storyboard */; };
+		6A22E5E520F2A3DA0052F3C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A22E5E420F2A3DA0052F3C6 /* Assets.xcassets */; };
+		6A22E5E820F2A3DA0052F3C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A22E5E620F2A3DA0052F3C6 /* LaunchScreen.storyboard */; };
+		6A22E5EB20F2A3DA0052F3C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A22E5EA20F2A3DA0052F3C6 /* main.m */; };
+		6A22E5F320F2A41B0052F3C6 /* PhotoMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A22E5F220F2A41A0052F3C6 /* PhotoMapViewController.m */; };
+		6A22E5F720F2A4790052F3C6 /* LocationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A22E5F620F2A4790052F3C6 /* LocationCell.m */; };
+		6A22E5FB20F2A4A00052F3C6 /* LocationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A22E5FA20F2A4A00052F3C6 /* LocationsViewController.m */; };
+		6A22E5FE20F2A4AE0052F3C6 /* FullImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A22E5FD20F2A4AE0052F3C6 /* FullImageViewController.m */; };
+		764B2B61269753990083C271 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 764B2B60269753990083C271 /* MapKit.framework */; };
+		A81105B65E41CA038B04C843 /* libPods-PhotoMap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7CBCF83EE4466FF76810F69 /* libPods-PhotoMap.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		764B2B44269752790083C271 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 764B2B20269752770083C271 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 764B2B27269752770083C271;
-			remoteInfo = PhotoMap;
-		};
-		764B2B4F269752790083C271 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 764B2B20269752770083C271 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 764B2B27269752770083C271;
-			remoteInfo = PhotoMap;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		764B2B28269752770083C271 /* PhotoMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		764B2B2B269752770083C271 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		764B2B2C269752770083C271 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		764B2B2E269752770083C271 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		764B2B2F269752770083C271 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		764B2B31269752770083C271 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		764B2B32269752770083C271 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		764B2B35269752770083C271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		764B2B37269752790083C271 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		764B2B3A269752790083C271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		764B2B3C269752790083C271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		764B2B3D269752790083C271 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		764B2B43269752790083C271 /* PhotoMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		764B2B47269752790083C271 /* PhotoMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoMapTests.m; sourceTree = "<group>"; };
-		764B2B49269752790083C271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		764B2B4E269752790083C271 /* PhotoMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		764B2B52269752790083C271 /* PhotoMapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoMapUITests.m; sourceTree = "<group>"; };
-		764B2B54269752790083C271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FB8B281BC86DC294A795EB1 /* Pods-PhotoMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoMap/Pods-PhotoMap.debug.xcconfig"; sourceTree = "<group>"; };
+		4BA548DB1FDF627664561D3C /* Pods-PhotoMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoMap/Pods-PhotoMap.release.xcconfig"; sourceTree = "<group>"; };
+		6A22E5D820F2A3D90052F3C6 /* PhotoMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A22E5DB20F2A3D90052F3C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6A22E5DC20F2A3D90052F3C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6A22E5E220F2A3D90052F3C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A22E5E420F2A3DA0052F3C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A22E5E720F2A3DA0052F3C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A22E5E920F2A3DA0052F3C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A22E5EA20F2A3DA0052F3C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A22E5F120F2A41A0052F3C6 /* PhotoMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoMapViewController.h; sourceTree = "<group>"; };
+		6A22E5F220F2A41A0052F3C6 /* PhotoMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoMapViewController.m; sourceTree = "<group>"; };
+		6A22E5F520F2A4790052F3C6 /* LocationCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationCell.h; sourceTree = "<group>"; };
+		6A22E5F620F2A4790052F3C6 /* LocationCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationCell.m; sourceTree = "<group>"; };
+		6A22E5F920F2A4A00052F3C6 /* LocationsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationsViewController.h; sourceTree = "<group>"; };
+		6A22E5FA20F2A4A00052F3C6 /* LocationsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationsViewController.m; sourceTree = "<group>"; };
+		6A22E5FC20F2A4AE0052F3C6 /* FullImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FullImageViewController.h; sourceTree = "<group>"; };
+		6A22E5FD20F2A4AE0052F3C6 /* FullImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FullImageViewController.m; sourceTree = "<group>"; };
+		764B2B60269753990083C271 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B7CBCF83EE4466FF76810F69 /* libPods-PhotoMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhotoMap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		764B2B25269752770083C271 /* Frameworks */ = {
+		6A22E5D520F2A3D90052F3C6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		764B2B40269752790083C271 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		764B2B4B269752790083C271 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				764B2B61269753990083C271 /* MapKit.framework in Frameworks */,
+				A81105B65E41CA038B04C843 /* libPods-PhotoMap.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		764B2B1F269752770083C271 = {
+		256FACF86D73B95C2A9F1824 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				764B2B2A269752770083C271 /* PhotoMap */,
-				764B2B46269752790083C271 /* PhotoMapTests */,
-				764B2B51269752790083C271 /* PhotoMapUITests */,
-				764B2B29269752770083C271 /* Products */,
+				0FB8B281BC86DC294A795EB1 /* Pods-PhotoMap.debug.xcconfig */,
+				4BA548DB1FDF627664561D3C /* Pods-PhotoMap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6A22E5CF20F2A3D90052F3C6 = {
+			isa = PBXGroup;
+			children = (
+				6A22E5DA20F2A3D90052F3C6 /* PhotoMap */,
+				6A22E5D920F2A3D90052F3C6 /* Products */,
+				256FACF86D73B95C2A9F1824 /* Pods */,
+				A8401941145BC10DCBD077EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		764B2B29269752770083C271 /* Products */ = {
+		6A22E5D920F2A3D90052F3C6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				764B2B28269752770083C271 /* PhotoMap.app */,
-				764B2B43269752790083C271 /* PhotoMapTests.xctest */,
-				764B2B4E269752790083C271 /* PhotoMapUITests.xctest */,
+				6A22E5D820F2A3D90052F3C6 /* PhotoMap.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		764B2B2A269752770083C271 /* PhotoMap */ = {
+		6A22E5DA20F2A3D90052F3C6 /* PhotoMap */ = {
 			isa = PBXGroup;
 			children = (
-				764B2B2B269752770083C271 /* AppDelegate.h */,
-				764B2B2C269752770083C271 /* AppDelegate.m */,
-				764B2B2E269752770083C271 /* SceneDelegate.h */,
-				764B2B2F269752770083C271 /* SceneDelegate.m */,
-				764B2B31269752770083C271 /* ViewController.h */,
-				764B2B32269752770083C271 /* ViewController.m */,
-				764B2B34269752770083C271 /* Main.storyboard */,
-				764B2B37269752790083C271 /* Assets.xcassets */,
-				764B2B39269752790083C271 /* LaunchScreen.storyboard */,
-				764B2B3C269752790083C271 /* Info.plist */,
-				764B2B3D269752790083C271 /* main.m */,
+				6A22E5DB20F2A3D90052F3C6 /* AppDelegate.h */,
+				6A22E5DC20F2A3D90052F3C6 /* AppDelegate.m */,
+				6A22E5E120F2A3D90052F3C6 /* Main.storyboard */,
+				6A22E5E420F2A3DA0052F3C6 /* Assets.xcassets */,
+				6A22E5E620F2A3DA0052F3C6 /* LaunchScreen.storyboard */,
+				6A22E5E920F2A3DA0052F3C6 /* Info.plist */,
+				6A22E5EA20F2A3DA0052F3C6 /* main.m */,
+				6A22E5F420F2A4570052F3C6 /* View Controllers */,
+				6A22E5F820F2A47D0052F3C6 /* Views */,
 			);
 			path = PhotoMap;
 			sourceTree = "<group>";
 		};
-		764B2B46269752790083C271 /* PhotoMapTests */ = {
+		6A22E5F420F2A4570052F3C6 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				764B2B47269752790083C271 /* PhotoMapTests.m */,
-				764B2B49269752790083C271 /* Info.plist */,
+				6A22E5F120F2A41A0052F3C6 /* PhotoMapViewController.h */,
+				6A22E5F220F2A41A0052F3C6 /* PhotoMapViewController.m */,
+				6A22E5F920F2A4A00052F3C6 /* LocationsViewController.h */,
+				6A22E5FA20F2A4A00052F3C6 /* LocationsViewController.m */,
+				6A22E5FC20F2A4AE0052F3C6 /* FullImageViewController.h */,
+				6A22E5FD20F2A4AE0052F3C6 /* FullImageViewController.m */,
 			);
-			path = PhotoMapTests;
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
-		764B2B51269752790083C271 /* PhotoMapUITests */ = {
+		6A22E5F820F2A47D0052F3C6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				764B2B52269752790083C271 /* PhotoMapUITests.m */,
-				764B2B54269752790083C271 /* Info.plist */,
+				6A22E5F520F2A4790052F3C6 /* LocationCell.h */,
+				6A22E5F620F2A4790052F3C6 /* LocationCell.m */,
 			);
-			path = PhotoMapUITests;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A8401941145BC10DCBD077EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				764B2B60269753990083C271 /* MapKit.framework */,
+				B7CBCF83EE4466FF76810F69 /* libPods-PhotoMap.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		764B2B27269752770083C271 /* PhotoMap */ = {
+		6A22E5D720F2A3D90052F3C6 /* PhotoMap */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 764B2B57269752790083C271 /* Build configuration list for PBXNativeTarget "PhotoMap" */;
+			buildConfigurationList = 6A22E5EE20F2A3DA0052F3C6 /* Build configuration list for PBXNativeTarget "PhotoMap" */;
 			buildPhases = (
-				764B2B24269752770083C271 /* Sources */,
-				764B2B25269752770083C271 /* Frameworks */,
-				764B2B26269752770083C271 /* Resources */,
+				6F7821ED3AEE54A44D589AD2 /* [CP] Check Pods Manifest.lock */,
+				6A22E5D420F2A3D90052F3C6 /* Sources */,
+				6A22E5D520F2A3D90052F3C6 /* Frameworks */,
+				6A22E5D620F2A3D90052F3C6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -154,67 +148,24 @@
 			);
 			name = PhotoMap;
 			productName = PhotoMap;
-			productReference = 764B2B28269752770083C271 /* PhotoMap.app */;
+			productReference = 6A22E5D820F2A3D90052F3C6 /* PhotoMap.app */;
 			productType = "com.apple.product-type.application";
-		};
-		764B2B42269752790083C271 /* PhotoMapTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 764B2B5A269752790083C271 /* Build configuration list for PBXNativeTarget "PhotoMapTests" */;
-			buildPhases = (
-				764B2B3F269752790083C271 /* Sources */,
-				764B2B40269752790083C271 /* Frameworks */,
-				764B2B41269752790083C271 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				764B2B45269752790083C271 /* PBXTargetDependency */,
-			);
-			name = PhotoMapTests;
-			productName = PhotoMapTests;
-			productReference = 764B2B43269752790083C271 /* PhotoMapTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		764B2B4D269752790083C271 /* PhotoMapUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 764B2B5D269752790083C271 /* Build configuration list for PBXNativeTarget "PhotoMapUITests" */;
-			buildPhases = (
-				764B2B4A269752790083C271 /* Sources */,
-				764B2B4B269752790083C271 /* Frameworks */,
-				764B2B4C269752790083C271 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				764B2B50269752790083C271 /* PBXTargetDependency */,
-			);
-			name = PhotoMapUITests;
-			productName = PhotoMapUITests;
-			productReference = 764B2B4E269752790083C271 /* PhotoMapUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		764B2B20269752770083C271 /* Project object */ = {
+		6A22E5D020F2A3D90052F3C6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Codepath;
 				TargetAttributes = {
-					764B2B27269752770083C271 = {
-						CreatedOnToolsVersion = 12.5.1;
-					};
-					764B2B42269752790083C271 = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = 764B2B27269752770083C271;
-					};
-					764B2B4D269752790083C271 = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = 764B2B27269752770083C271;
+					6A22E5D720F2A3D90052F3C6 = {
+						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 764B2B23269752770083C271 /* Build configuration list for PBXProject "PhotoMap" */;
+			buildConfigurationList = 6A22E5D320F2A3D90052F3C6 /* Build configuration list for PBXProject "PhotoMap" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,101 +173,79 @@
 				en,
 				Base,
 			);
-			mainGroup = 764B2B1F269752770083C271;
-			productRefGroup = 764B2B29269752770083C271 /* Products */;
+			mainGroup = 6A22E5CF20F2A3D90052F3C6;
+			productRefGroup = 6A22E5D920F2A3D90052F3C6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				764B2B27269752770083C271 /* PhotoMap */,
-				764B2B42269752790083C271 /* PhotoMapTests */,
-				764B2B4D269752790083C271 /* PhotoMapUITests */,
+				6A22E5D720F2A3D90052F3C6 /* PhotoMap */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		764B2B26269752770083C271 /* Resources */ = {
+		6A22E5D620F2A3D90052F3C6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				764B2B3B269752790083C271 /* LaunchScreen.storyboard in Resources */,
-				764B2B38269752790083C271 /* Assets.xcassets in Resources */,
-				764B2B36269752770083C271 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		764B2B41269752790083C271 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		764B2B4C269752790083C271 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				6A22E5E820F2A3DA0052F3C6 /* LaunchScreen.storyboard in Resources */,
+				6A22E5E520F2A3DA0052F3C6 /* Assets.xcassets in Resources */,
+				6A22E5E320F2A3D90052F3C6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6F7821ED3AEE54A44D589AD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoMap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		764B2B24269752770083C271 /* Sources */ = {
+		6A22E5D420F2A3D90052F3C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				764B2B33269752770083C271 /* ViewController.m in Sources */,
-				764B2B2D269752770083C271 /* AppDelegate.m in Sources */,
-				764B2B3E269752790083C271 /* main.m in Sources */,
-				764B2B30269752770083C271 /* SceneDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		764B2B3F269752790083C271 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				764B2B48269752790083C271 /* PhotoMapTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		764B2B4A269752790083C271 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				764B2B53269752790083C271 /* PhotoMapUITests.m in Sources */,
+				6A22E5EB20F2A3DA0052F3C6 /* main.m in Sources */,
+				6A22E5F320F2A41B0052F3C6 /* PhotoMapViewController.m in Sources */,
+				6A22E5FB20F2A4A00052F3C6 /* LocationsViewController.m in Sources */,
+				6A22E5FE20F2A4AE0052F3C6 /* FullImageViewController.m in Sources */,
+				6A22E5F720F2A4790052F3C6 /* LocationCell.m in Sources */,
+				6A22E5DD20F2A3D90052F3C6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		764B2B45269752790083C271 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 764B2B27269752770083C271 /* PhotoMap */;
-			targetProxy = 764B2B44269752790083C271 /* PBXContainerItemProxy */;
-		};
-		764B2B50269752790083C271 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 764B2B27269752770083C271 /* PhotoMap */;
-			targetProxy = 764B2B4F269752790083C271 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		764B2B34269752770083C271 /* Main.storyboard */ = {
+		6A22E5E120F2A3D90052F3C6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				764B2B35269752770083C271 /* Base */,
+				6A22E5E220F2A3D90052F3C6 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		764B2B39269752790083C271 /* LaunchScreen.storyboard */ = {
+		6A22E5E620F2A3DA0052F3C6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				764B2B3A269752790083C271 /* Base */,
+				6A22E5E720F2A3DA0052F3C6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -324,7 +253,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		764B2B55269752790083C271 /* Debug */ = {
+		6A22E5EC20F2A3DA0052F3C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -350,13 +279,13 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -375,15 +304,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		764B2B56269752790083C271 /* Release */ = {
+		6A22E5ED20F2A3DA0052F3C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -409,13 +337,13 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -428,166 +356,69 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		764B2B58269752790083C271 /* Debug */ = {
+		6A22E5EF20F2A3DA0052F3C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FB8B281BC86DC294A795EB1 /* Pods-PhotoMap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U4434QKULQ;
 				INFOPLIST_FILE = PhotoMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.surbhij.PhotoMap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.PhotoMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		764B2B59269752790083C271 /* Release */ = {
+		6A22E5F020F2A3DA0052F3C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BA548DB1FDF627664561D3C /* Pods-PhotoMap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U4434QKULQ;
 				INFOPLIST_FILE = PhotoMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.surbhij.PhotoMap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.PhotoMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		764B2B5B269752790083C271 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U4434QKULQ;
-				INFOPLIST_FILE = PhotoMapTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.surbhij.PhotoMapTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoMap.app/PhotoMap";
-			};
-			name = Debug;
-		};
-		764B2B5C269752790083C271 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U4434QKULQ;
-				INFOPLIST_FILE = PhotoMapTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.surbhij.PhotoMapTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoMap.app/PhotoMap";
-			};
-			name = Release;
-		};
-		764B2B5E269752790083C271 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U4434QKULQ;
-				INFOPLIST_FILE = PhotoMapUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.surbhij.PhotoMapUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PhotoMap;
-			};
-			name = Debug;
-		};
-		764B2B5F269752790083C271 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U4434QKULQ;
-				INFOPLIST_FILE = PhotoMapUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.surbhij.PhotoMapUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PhotoMap;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		764B2B23269752770083C271 /* Build configuration list for PBXProject "PhotoMap" */ = {
+		6A22E5D320F2A3D90052F3C6 /* Build configuration list for PBXProject "PhotoMap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				764B2B55269752790083C271 /* Debug */,
-				764B2B56269752790083C271 /* Release */,
+				6A22E5EC20F2A3DA0052F3C6 /* Debug */,
+				6A22E5ED20F2A3DA0052F3C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		764B2B57269752790083C271 /* Build configuration list for PBXNativeTarget "PhotoMap" */ = {
+		6A22E5EE20F2A3DA0052F3C6 /* Build configuration list for PBXNativeTarget "PhotoMap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				764B2B58269752790083C271 /* Debug */,
-				764B2B59269752790083C271 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		764B2B5A269752790083C271 /* Build configuration list for PBXNativeTarget "PhotoMapTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				764B2B5B269752790083C271 /* Debug */,
-				764B2B5C269752790083C271 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		764B2B5D269752790083C271 /* Build configuration list for PBXNativeTarget "PhotoMapUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				764B2B5E269752790083C271 /* Debug */,
-				764B2B5F269752790083C271 /* Release */,
+				6A22E5EF20F2A3DA0052F3C6 /* Debug */,
+				6A22E5F020F2A3DA0052F3C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 764B2B20269752770083C271 /* Project object */;
+	rootObject = 6A22E5D020F2A3D90052F3C6 /* Project object */;
 }

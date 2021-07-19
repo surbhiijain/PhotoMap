@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  FullImageViewController.h
 //  PhotoMap
 //
 //  Created by emersonmalca on 7/8/18.
@@ -8,10 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface FullImageViewController : UIViewController
 
-@property (strong, nonatomic) UIWindow *window;
-
+@property (nonatomic, strong) UIImage *fullImage;
 
 @end
-

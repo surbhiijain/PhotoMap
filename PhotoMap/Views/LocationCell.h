@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  LocationCell.h
 //  PhotoMap
 //
 //  Created by emersonmalca on 7/8/18.
@@ -8,10 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface LocationCell : UITableViewCell
 
-@property (strong, nonatomic) UIWindow *window;
-
+- (void)updateWithLocation:(NSDictionary *)location;
 
 @end
-
